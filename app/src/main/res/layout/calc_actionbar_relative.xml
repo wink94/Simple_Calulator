@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/action_bar">
+
+    <android.support.v4.widget.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CODEFEST-Calculator"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textFontWeight="22"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
